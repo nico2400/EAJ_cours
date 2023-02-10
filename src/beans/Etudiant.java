@@ -11,7 +11,7 @@ public class Etudiant extends Personne {
     @Apsio(value="attribut")
     private int note;
 
-    @SuppressWarnings("unused")
+    @Apsio(annee = 2023)
     public Etudiant(@Apsio String nom) {
         super(nom);
     }
