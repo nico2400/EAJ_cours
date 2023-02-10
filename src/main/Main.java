@@ -13,7 +13,8 @@ public class Main {
 
         Object object = etudiant;
 
-        System.out.println(etudiant.getClass());
+        System.out.println(etudiant.getClass().toString());
+        System.out.println(object.getClass().toString());
 
     }
 }
