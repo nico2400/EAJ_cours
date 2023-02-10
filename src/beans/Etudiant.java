@@ -21,4 +21,8 @@ public class Etudiant extends Personne {
         System.out.println("L'étudiant est " + this.getNom());
     }
 
+    public void bonsoir(){
+        System.out.println("Bonsoir");
+    }
+
 }
