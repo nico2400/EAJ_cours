@@ -3,6 +3,9 @@ package main;
 import beans.Etudiant;
 import beans.Personne;
 
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -19,6 +22,13 @@ public class Main {
         Class laClasse = object.getClass();
 
         System.out.println(laClasse.getCanonicalName());
+
+        for (Method m: laClasse.getMethods() ) {
+            System.out.println(m);
+            for (Annotation a: m.getAnnotations()) {
+                System.out.println(" - anno : " + a);
+            }
+        }
 
 
     }
