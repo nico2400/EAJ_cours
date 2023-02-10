@@ -16,5 +16,10 @@ public class Main {
         System.out.println(etudiant.getClass().toString());
         System.out.println(object.getClass().toString());
 
+        Class laClasse = object.getClass();
+
+        System.out.println(laClasse.getCanonicalName());
+
+
     }
 }
