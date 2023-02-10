@@ -2,7 +2,6 @@ package beans;
 
 import anno.Apsio;
 
-@SuppressWarnings("serial")
 @Apsio(value = "classe", annee = 2023)
 public class Etudiant extends Personne {
 
