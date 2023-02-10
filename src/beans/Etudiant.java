@@ -19,7 +19,7 @@ public class Etudiant extends Personne {
     @Override
     @Apsio(value="methode", annee = 2022)
     public void bonjour() {
-        System.out.println("L'Ã©tudiant est " + this.getNom());
+        System.out.println("L'étudiant est " + this.getNom());
     }
 
 }
